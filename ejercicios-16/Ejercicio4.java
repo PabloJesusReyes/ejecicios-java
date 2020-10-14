@@ -3,11 +3,11 @@
  *
  * @author Pablo Jesús Reyes Podadera
  */
-public class Ejercicio4 { // Clase principal
+public class Ejercicio5 { // Clase principal
   public static void main(String[] args) {
     System.out.println("Hora\tLunes\tMartes\tMiercoles\tJueves\tViernes");
     System.out.println("----------------");
-    System.out.println("8:15\tED\tProg\tProg\tProg\tFOL");
+    System.out.println("8:15\t \033[33m ED \033[35m \tProg\tProg\tProg \033[33m\tFOL ");
     System.out.println("9:15\tED\tProg\tProg\tLM\tFOL");
     System.out.println("10:15\tED\tLM\tProg\tLM\tFOL");
     System.out.println("11:15\tDesc\tDesc\tDesc\tDesc\tDesc");
