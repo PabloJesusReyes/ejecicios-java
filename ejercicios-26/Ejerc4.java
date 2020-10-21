@@ -1,7 +1,7 @@
 /**
- * Salida formateada
+ * Conversor de euros a pesetas
  *
- * @author Luis J. Sánchez
+ * @author Pablo Jesús Reyes Podadera
  */
 public class Ejerc4{
   public static void main(String[] args) {

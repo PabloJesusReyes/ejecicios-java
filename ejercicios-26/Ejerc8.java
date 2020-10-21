@@ -1,7 +1,7 @@
 /**
- * Salida formateada
+ * Uniendo varios char en un string
  *
- * @author Luis J. Sánchez
+ * @author Pablo Jesús Reyes Podadera
  */
 public class Ejerc8 {
   public static void main(String[] args) {

@@ -1,7 +1,7 @@
 /**
- * Salida formateada
+ * Muestra mi nombre
  *
- * @author Luis J. Sánchez
+ * @author Pablo Jesús Reyes Podadera
  */
 public class Ejerc2{
   public static void main(String[] args) {

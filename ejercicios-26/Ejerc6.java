@@ -1,7 +1,7 @@
 /**
- * Salida formateada
+ * Calculo del total de una factura
  *
- * @author Luis J. Sánchez
+ * @author Pablo Jesús Reyes Podadera
  */
 public class Ejerc6{
   public static void main(String[] args) {

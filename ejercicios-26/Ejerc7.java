@@ -1,7 +1,7 @@
 /**
- * Salida formateada
+ * Prueba con char y strings
  *
- * @author Luis J. Sánchez
+ * @author Pablo Jesús Reyes Podadera
  */
 public class Ejerc7{
   public static void main(String[] args) {

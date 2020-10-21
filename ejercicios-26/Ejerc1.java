@@ -1,7 +1,7 @@
 /**
- * Salida formateada
+ * Calculadora
  *
- * @author Luis J. Sánchez
+ * @author Pablo Jesús Reyes Podadera
  */
 public class Ejerc1{
   public static void main(String[] args) {

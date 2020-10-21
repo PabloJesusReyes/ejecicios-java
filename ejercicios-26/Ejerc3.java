@@ -1,7 +1,7 @@
 /**
- * Salida formateada
+ * Muestra los datos por pantalla
  *
- * @author Luis J. Sánchez
+ * @author Pablo Jesús Reyes Podadera
  */
 public class Ejerc3{
   public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class Ejerc3{
     String direccion;
     direccion = "Alameda de capuchinos";
     String telefono;
-    telefono = "669005713";
+    telefono = "666666666";
     System.out.println("Mi nombre es " + nombre);
     System.out.println("Mi direccion es " + direccion);
     System.out.println("Mi telefono es " + telefono);
