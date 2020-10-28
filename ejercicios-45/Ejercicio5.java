@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /**
- * Salario en funcion de horas
+ * Resolucion de ecuacion de primer grado
  *
  * @author Pablo Jesús Reyes Podadera
  */
@@ -14,8 +14,8 @@ public class Ejercicio5 {
     System.out.print("Ahora introduzca el valor de b:");
     b = Integer.parseInt(System.console().readLine());
     
-    if (a == 0 && b != 0){
-    System.out.printf("Esa ecuacion no tiene solución real");
+    if ((a == 0 && b != 0) || (a == 0 && b == 0) {
+    System.out.printf("Esa ecuacion no tiene solución");
     } else {
     x= -b/a;
     System.out.printf("x= %.2f", x);

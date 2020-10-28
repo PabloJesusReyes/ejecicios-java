@@ -7,9 +7,9 @@
 public class Ejercicio6 { 
   public static void main(String[] args) {
     
-    double h,t,g;
+    double h,t;
+    final double g = 9.81;
     
-    g = 9.81;
     System.out.print("Por favor, introduzca ela altura h:");
     h = Double.parseDouble(System.console().readLine());
     
