@@ -16,23 +16,25 @@ public class Ejercicio20 {
     if (num < 10) {
       capicua = true;
     } else if (num < 100) {
-      if ((num / 10) == (num % 10)) {
-        capicua = true;
-      }
-    } else if (num < 1000) {
-      if ((num / 100) == (num % 10)) {
-        capicua = true;
-      } else if (num < 10000)
-      if(((num / 1000)  == (num % 10)) && ((num / 10) % 10) == (num % 100) / 10){
-        capicua = true;
-      } else if (num < 100000){
-        if(((num / 10000) == (num % 10)) && (num / 1000) == (num % 100)){
+        if ((num / 10) == (num % 10)) {
         capicua = true;
         }
-      } else {
+    } else if (num < 1000) {
+        if ((num / 100) == (num % 10)) {
+        capicua = true;
+        }
+    } else if (num < 10000) {
+        if(((num / 1000)  == (num % 10)) && ((num / 100) % 10) == (num / 10) % 10) {
+        capicua = true;
+        }
+    } else if (num < 100000){
+        if(((num / 10000) == (num % 10)) && ((num / 1000) % 10) == ((num / 10) % 10)) {
+        capicua = true;
+        }
+    } else {
         System.out.println("el número es mayor de 5 cifras");
-      }
     }
+    
     if (capicua == true) {
       System.out.println("El número introducido es capicua.");
     } else {
